@@ -3,8 +3,6 @@
 		}
 		body {
 			background-color: #FFFFFF;
-			color: ;
-			font-family: Arial, Helvetica, sans-serif;
 			font-size: 18px;
 			font-weight: normal;
 		}
@@ -14,11 +12,14 @@
 		p {
 			padding: 5px 20px;
 		}
-		.Dark{
+		.dark{
 			background:black;
 			color:white;
 			padding: 10px;
-			min-height: 250px;
+			min-height: 450px;
+			height: 100%;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: x-large;
 		}
 		img{
 			margin:5px;
@@ -37,11 +38,29 @@
 		  text-align:left;
 		  
 		}
+		span{
+			color:red;
+		}
+		nav{
+			padding-top:40px;
+			padding-bottom: 40px;
+		}
 		nav ul li a{
 		text-decoration:none;
 		color:gray;
 		}
-		
+		.imge_set{
+			padding: 20px;
+			max-width: 100%;
+			min-width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content:space-around;
+
+		}
+		.imge_set img{
+			position: relative;
+		}
 		nav ul li a:hover{
 			text-decoration:underline;
 		}
@@ -50,19 +69,29 @@
 		list-style: none;
 		float:left;
 		padding-left: 30px;
-		padding-top:30px;
-		
+	
+		padding-bottom: 30px;		
 		}
 		.mainclass{
 			background:black;
 			color:white;
-			padding:20px;
+			padding:30px;
 			margin-top:50px;
 			text-align:left;
 			font-size:30px;
 		}
-		.icons{
+		.dark img{
+			width:40%;
+			max-height: 100%;
+			max-width: 670px;
+			min-width: 400px;
+			padding-left: 20px;
+			float: left; 
 		}
+		.dark h2{
+			padding: 20px;
+		}
+	
 		.my-form{
 			display:block;
 			position:relative
@@ -74,7 +103,7 @@
 
 		.bg-img {
 		  background-image: url("images/banner-img.png");
-		  min-height: 500px;
+		
 		  background-position: center;
 		  background-repeat: no-repeat;
 		  background-size: cover;
@@ -88,14 +117,14 @@
 		  padding: 16px;
 		  background-color: white;
 		}
-		input[type=text], input[type=password] {
+		.container input[type=text]{
 		  width: 100%;
 		  padding: 15px;
 		  margin: 5px 0 22px 0;
 		  border: none;
 		  background: #f1f1f1;
 		}
-		input[type=text]:focus, input[type=password]:focus {
+		input[type=text]:focus {
 		  background-color: #ddd;
 		  outline: none;
 		}
