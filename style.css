@@ -1,142 +1,187 @@
-		body, *{
-			margin:0;
-		}
-		body {
-			background-color: #FFFFFF;
-			font-size: 18px;
-			font-weight: normal;
-		}
-		h1{
-			text-align:center;
-		}
-		p {
-			padding: 5px 20px;
-		}
-		.dark{
-			background:black;
-			color:white;
-			padding: 10px;
-			min-height: 450px;
-			height: 100%;
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: x-large;
-		}
-		img{
-			margin:5px;
-		}
-		.titles{
-			text-align:center;
-			padding:30px;
-			
-		}
-		footer {
-		  column-count: 3;
-		  column-gap: 40px;
-		  background:black;
-		  color:white;
-		  padding:20px;
-		  text-align:left;
-		  
-		}
-		span{
-			color:red;
-		}
-		nav{
-			padding-top:40px;
-			padding-bottom: 40px;
-		}
-		nav ul li a{
-		text-decoration:none;
-		color:gray;
-		}
-		.imge_set{
-			padding: 20px;
-			max-width: 100%;
-			min-width: 100%;
-			display: flex;
-			flex-direction: row;
-			justify-content:space-around;
 
-		}
-		.imge_set img{
-			position: relative;
-		}
-		nav ul li a:hover{
-			text-decoration:underline;
-		}
-		
-		nav ul li{
-		list-style: none;
-		float:left;
-		padding-left: 30px;
-	
-		padding-bottom: 30px;		
-		}
-		.mainclass{
-			background:black;
-			color:white;
-			padding:30px;
-			margin-top:50px;
-			text-align:left;
-			font-size:30px;
-		}
-		.dark img{
-			width:40%;
-			max-height: 100%;
-			max-width: 670px;
-			min-width: 400px;
-			padding-left: 20px;
-			float: left; 
-		}
-		.dark h2{
-			padding: 20px;
-		}
-	
-		.my-form{
-			display:block;
-			position:relative
-		}
-		
-		* {
-		  box-sizing: border-box;
-		}
 
-		.bg-img {
-		  background-image: url("images/banner-img.png");
-		
-		  background-position: center;
-		  background-repeat: no-repeat;
-		  background-size: cover;
-		  position: relative;
-		}
-		.container {
-		  position: absolute;
-		  right: 0;
-		  margin: 20px;
-		  max-width: 300px;
-		  padding: 16px;
-		  background-color: white;
-		}
-		.container input[type=text]{
-		  width: 100%;
-		  padding: 15px;
-		  margin: 5px 0 22px 0;
-		  border: none;
-		  background: #f1f1f1;
-		}
-		input[type=text]:focus {
-		  background-color: #ddd;
-		  outline: none;
-		}
-		.btn {
-		  background-color: #4CAF50;
-		  color: white;
-		  padding: 14px 18px;
-		  border: none;
-		  cursor: pointer;
-		  width: 100%;
-		  opacity: 0.9;
-		}
-		.btn:hover {
-		  opacity: 1;
-		}
+/* Padma Gnanapriya */
+/* SE/2017/014 */
+
+body, *{
+	margin:0;
+}
+body {
+	background-color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+}
+* {
+	box-sizing: border-box;
+  }
+h1{
+	text-align:center;
+}
+p {
+	padding: 5px 20px;
+}
+
+img{
+	margin:5px;
+}
+.titles{
+	text-align:center;
+	padding:30px;			
+}	
+span{
+	color:red;
+}
+nav{
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+nav ul li{
+	list-style: none;
+	float:left;
+	padding-left: 30px;
+	padding-bottom: 30px;		
+	}
+nav ul li a{
+text-decoration:none;
+color:gray;
+}
+nav ul li a:hover{
+	text-decoration:underline;
+}
+.imge_set{
+	padding: 20px;
+	max-width: 100%;
+	min-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+.icons{
+	width: 100%;
+	padding-bottom: 70px;
+}
+.icons img{
+	width: 6%;
+}
+
+.mainclass{
+	background:black;
+	color:white;
+	padding:30px;
+	margin-top:50px;
+	text-align:left;
+	font-size:30px;
+}
+.dark{
+	background:black;
+	color:white;
+	padding: 10px;
+	min-height: 450px;
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+}
+.dark img{
+	width:40%;
+	max-height: 100%;
+	max-width: 670px;
+	min-width: 400px;
+	padding-left: 20px;
+	float: left; 
+}
+.dark h2{
+	padding: 20px;
+}
+.dark2{
+	background:black;
+	color:white;
+	padding: 30px;
+}
+special{
+	background: red;
+	color:white;
+	text-decoration:underline;
+}
+.my-form{
+	display:block;
+	position:relative
+}
+
+/* Padma Gnanapriya */
+/* SE/2017/014 */
+
+.bg-img {
+  background-image: url("images/banner-img.png");
+  min-height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+.container input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 18px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+.card {
+	transition: 0.3s;
+	width: 18%;
+	float:left;
+	padding:10px;
+	text-align: center;
+  }
+  .card img{
+	  height: 85%;
+	  padding-bottom: 10px;
+  }
+.cardHolder{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.footer {
+	column-count: 3;
+	column-gap: 40px;
+	background:black;
+	color:white;
+	padding:20px;
+	text-align:left;
+	padding-top: 50px;			
+}
+footer{
+	background:silver;
+	padding:20px;
+}
+footer a{
+	float: right;
+}
+  
+
+/* Padma Gnanapriya */
+/* SE/2017/014 */
